@@ -54,4 +54,4 @@ testData = {
 }
 
 
-sort(testData,3)
+sum(testData,3)
