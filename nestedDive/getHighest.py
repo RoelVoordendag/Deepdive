@@ -40,36 +40,7 @@ def sumData(data, layers):
     # Change
     sorted_dict = dict(OrderedDict(sorted_x)) #Force to dictionary for mongodb
 
-    print("sorted")
     print(sorted_dict)
-
-def testSum(data, layers):
-    allData = {}
-    testing = []
-    # Make data to one big list
-    for name, value in data.items():
-        testing.append(value)
-
-    # for x in range(layers):
-    #     print(x)
-    #     for name, value in testing.items():
-    #         wijkData = []
-    #                                                                     # if x == layers - 1:
-    #                                                                         # print(value)
-    #                                                                     #     print("throug if")
-    #                                                                     #     for nameData, data in value.items():
-    #                                                                     #         wijkData.append(data)
-    #                                                                     #     calculatedData = sum(wijkData)
-    #                                                                     #     allData.update({name : calculatedData})     
-    #         testing.append(value)
-    #         print(value)
-    #     data = value
-
-
-    # print(wijkData)
-    # print(allData)
-
-
 
 testData = {
     "Charlois": {
@@ -114,5 +85,3 @@ testData = {
     }
 }
 
-
-testSum(testData,3)

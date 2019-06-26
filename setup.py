@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="nestedDive",
-    version="0.2.12",
+    version="0.3.0",
     author="RoelVoordendag",
     author_email="rvoordendag@gmail.com",
     description="Sorter for nested items",
