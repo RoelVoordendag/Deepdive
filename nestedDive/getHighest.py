@@ -21,8 +21,8 @@ def sumData(data, layers):
     allData = {}
 
     # Get the latest item
-    for name, value in data.items():
-        for name, value in value.items():
+    for testing in data:
+        for name, value in testing.items():
             for name, value in value.items():
                 # I have the data here`
                 wijkData = []
